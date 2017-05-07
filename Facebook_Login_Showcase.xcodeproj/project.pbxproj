@@ -16,6 +16,11 @@
 		29C182751EBF364100A00868 /* Facebook_Login_ShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C182741EBF364100A00868 /* Facebook_Login_ShowcaseTests.swift */; };
 		29C182801EBF364100A00868 /* Facebook_Login_ShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1827F1EBF364100A00868 /* Facebook_Login_ShowcaseUITests.swift */; };
 		29C1828E1EBF37D600A00868 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29C1828D1EBF37D600A00868 /* GoogleService-Info.plist */; };
+		29C182901EBF3F4C00A00868 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C1828F1EBF3F4C00A00868 /* FBSDKCoreKit.framework */; };
+		29C182921EBF3F8800A00868 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C182911EBF3F8800A00868 /* FBSDKCoreKit.framework */; };
+		29C182941EBF3FC800A00868 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C182931EBF3FC800A00868 /* Bolts.framework */; };
+		29C182961EBF3FEA00A00868 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C182951EBF3FEA00A00868 /* FBSDKLoginKit.framework */; };
+		29C182981EBF3FF400A00868 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C182971EBF3FF400A00868 /* FBSDKShareKit.framework */; };
 		A9D1BEB24EB922B61AFAD0F9 /* Pods_Facebook_Login_ShowcaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38B6E85DA8A30D07F7DEE1D /* Pods_Facebook_Login_ShowcaseUITests.framework */; };
 		BC9B0C0165FAEC14A976241C /* Pods_Facebook_Login_Showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313D9F729C1919076BC8C817 /* Pods_Facebook_Login_Showcase.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +60,11 @@
 		29C1827F1EBF364100A00868 /* Facebook_Login_ShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_Login_ShowcaseUITests.swift; sourceTree = "<group>"; };
 		29C182811EBF364100A00868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C1828D1EBF37D600A00868 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29C1828F1EBF3F4C00A00868 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		29C182911EBF3F8800A00868 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		29C182931EBF3FC800A00868 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = "<group>"; };
+		29C182951EBF3FEA00A00868 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		29C182971EBF3FF400A00868 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Documents/FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		313D9F729C1919076BC8C817 /* Pods_Facebook_Login_Showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_Login_Showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4770ACF188EA987F708CF949 /* Pods-Facebook_Login_ShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook_Login_ShowcaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook_Login_ShowcaseUITests/Pods-Facebook_Login_ShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8258D524001CED9451E5565D /* Pods-Facebook_Login_Showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook_Login_Showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook_Login_Showcase/Pods-Facebook_Login_Showcase.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +79,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9B0C0165FAEC14A976241C /* Pods_Facebook_Login_Showcase.framework in Frameworks */,
+				29C182921EBF3F8800A00868 /* FBSDKCoreKit.framework in Frameworks */,
+				29C182981EBF3FF400A00868 /* FBSDKShareKit.framework in Frameworks */,
+				29C182961EBF3FEA00A00868 /* FBSDKLoginKit.framework in Frameworks */,
+				29C182901EBF3F4C00A00868 /* FBSDKCoreKit.framework in Frameworks */,
+				29C182941EBF3FC800A00868 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				313D9F729C1919076BC8C817 /* Pods_Facebook_Login_Showcase.framework */,
+				29C182971EBF3FF400A00868 /* FBSDKShareKit.framework */,
+				29C182951EBF3FEA00A00868 /* FBSDKLoginKit.framework */,
+				29C182931EBF3FC800A00868 /* Bolts.framework */,
+				29C182911EBF3F8800A00868 /* FBSDKCoreKit.framework */,
 				07064B27376F7A40D8AAEE44 /* Pods_Facebook_Login_ShowcaseTests.framework */,
 				B38B6E85DA8A30D07F7DEE1D /* Pods_Facebook_Login_ShowcaseUITests.framework */,
 			);
@@ -158,6 +177,7 @@
 		E77ADF4572FDADC019BD607B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				29C1828F1EBF3F4C00A00868 /* FBSDKCoreKit.framework */,
 				B72592E57FB4B0A90281ED2E /* Pods-Facebook_Login_Showcase.debug.xcconfig */,
 				8258D524001CED9451E5565D /* Pods-Facebook_Login_Showcase.release.xcconfig */,
 				E595F6602EC1DA48A3707387 /* Pods-Facebook_Login_ShowcaseTests.debug.xcconfig */,
@@ -604,6 +624,16 @@
 			baseConfigurationReference = B72592E57FB4B0A90281ED2E /* Pods-Facebook_Login_Showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					/Users/cl15341/Documents/FacebookSDK,
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+				);
 				INFOPLIST_FILE = Facebook_Login_Showcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cuthbertLeathart.Facebook-Login-Showcase";
@@ -617,6 +647,16 @@
 			baseConfigurationReference = 8258D524001CED9451E5565D /* Pods-Facebook_Login_Showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					/Users/cl15341/Documents/FacebookSDK,
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+				);
 				INFOPLIST_FILE = Facebook_Login_Showcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cuthbertLeathart.Facebook-Login-Showcase";
@@ -702,6 +742,7 @@
 				29C182861EBF364100A00868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29C182871EBF364100A00868 /* Build configuration list for PBXNativeTarget "Facebook_Login_ShowcaseTests" */ = {
 			isa = XCConfigurationList;
@@ -710,6 +751,7 @@
 				29C182891EBF364100A00868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29C1828A1EBF364100A00868 /* Build configuration list for PBXNativeTarget "Facebook_Login_ShowcaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -718,6 +760,7 @@
 				29C1828C1EBF364100A00868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
