@@ -14,6 +14,7 @@
 		29C1826A1EBF364100A00868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C182681EBF364100A00868 /* LaunchScreen.storyboard */; };
 		29C182751EBF364100A00868 /* Facebook_Login_ShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C182741EBF364100A00868 /* Facebook_Login_ShowcaseTests.swift */; };
 		29C182801EBF364100A00868 /* Facebook_Login_ShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1827F1EBF364100A00868 /* Facebook_Login_ShowcaseUITests.swift */; };
+		29C1828E1EBF37D600A00868 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29C1828D1EBF37D600A00868 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		29C1827B1EBF364100A00868 /* Facebook_Login_ShowcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Facebook_Login_ShowcaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C1827F1EBF364100A00868 /* Facebook_Login_ShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_Login_ShowcaseUITests.swift; sourceTree = "<group>"; };
 		29C182811EBF364100A00868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C1828D1EBF37D600A00868 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				29C182631EBF364100A00868 /* Main.storyboard */,
 				29C182661EBF364100A00868 /* Assets.xcassets */,
 				29C182681EBF364100A00868 /* LaunchScreen.storyboard */,
+				29C1828D1EBF37D600A00868 /* GoogleService-Info.plist */,
 				29C1826B1EBF364100A00868 /* Info.plist */,
 			);
 			path = Facebook_Login_Showcase;
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29C1826A1EBF364100A00868 /* LaunchScreen.storyboard in Resources */,
+				29C1828E1EBF37D600A00868 /* GoogleService-Info.plist in Resources */,
 				29C182671EBF364100A00868 /* Assets.xcassets in Resources */,
 				29C182651EBF364100A00868 /* Main.storyboard in Resources */,
 			);
